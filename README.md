@@ -38,7 +38,7 @@
 export default {
   async fetch(request, env) {
     // 替换为您的 GitHub Raw 链接
-    const GITHUB_RAW_URL = "[https://raw.githubusercontent.com/您的用户名/仓库名/main/output/sub.txt](https://raw.githubusercontent.com/您的用户名/仓库名/main/output/sub.txt)";
+    const GITHUB_RAW_URL = "https://raw.githubusercontent.com/您的用户名/仓库名/main/output/sub.txt";
     
     try {
       const response = await fetch(GITHUB_RAW_URL, {
